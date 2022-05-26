@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: #1f2123;
+    color: rgb(226, 226, 226);
+    font-family: 'Open Sans', sans-serif;
+}
+
+a { 
+    color: rgb(184, 184, 184);;
+}
+
+main table{
+    margin: auto;
+    border-collapse: collapse;
+}
+
+main table td a{
+    color: white;
+    text-decoration: none;
+    text-align: justify;
+}
+
+h1, h2 {
+    margin-left: 40px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+.btnExcluir{
+    background-color: rgb(148, 34, 34);
+    padding: 1px 15px;
+}
+
+.btnExcluir:hover {
+    transition: 0.3s;
+    background-color: rgb(175, 40, 40);
+    box-shadow: 2px 2px 15px rgb(175, 40, 40);
+}
+
+.tdID{
+    padding: 0 5px;
+}
+
+.tdNome {
+    padding: 0 35rem;
+}
+
+.btnInserir {
+    background-color: rgb(11, 128, 0);
+    margin: 50px 0 0 40px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.btnInserir:hover {
+    transition: 0.3s;
+    background-color: rgb(16, 173, 1);
+    box-shadow: 2px 2px 15px rgb(16, 173, 1);
+}
